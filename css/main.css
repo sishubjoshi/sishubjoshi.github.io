@@ -1,0 +1,140 @@
+* {
+    margin:0;
+    padding:0;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+ a {
+    text-decoration: none;
+    font-size: 22px;
+    color: #000;
+}
+
+.navbar {
+    position: fixed;
+    top: 5px;
+    left: 0;
+    right: 0;
+    background: #43cea2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+    border-radius: 10px;
+    margin: 0 15% 0 15%;
+    display: grid;
+    grid-template-columns: 30% auto;
+    padding: 10px;
+    box-shadow: 1px 3px 5px 2px rgba(0,0,0,0.7);
+
+}
+.branding a {
+    color: #fff;
+}
+.branding {
+    padding:0 10px;
+
+}
+.nav-items {
+    list-style-type: none;
+    margin:0 auto;
+}
+.nav-item {
+    display: inline-block;
+    margin:0 15px;
+    font-size: 17px;
+}
+.nav-item a {
+    font-size: 17px;
+}
+
+.nav-item a:hover {
+    color: #fff;
+}
+
+
+/* header  */
+.header {
+    margin-top: 100px;
+    width: 100%;
+    height: 600px;
+    /* background: #f2f2f2; */
+    padding-top: 60px;
+}
+.image-div {
+    margin:0 auto;
+    width: 160px;
+    height: 160px;;
+    /* border: none; */
+    background-image:url(https://avatars1.githubusercontent.com/u/31927447?s=400&u=5436c0fc88f8066e3c53747737e73babfd58a3c2&v=4);
+    background-size: contain;
+    border-radius: 50%;    
+}
+
+.details {
+    text-align: center;
+    margin: 0 2rem;
+}
+#name, #intro, #brief {
+    padding:3px 0;
+}
+#name {
+    color: #363636;
+    font-size: 40px;
+    margin-top: 10px;
+}
+#intro {
+    color:#504A4A;
+    font-weight: 200;
+}
+#brief {
+    color: #4A4A4A;
+    margin-top: 20px;
+    font-weight: 200;
+}
+
+.social {
+    padding: 10px;
+}
+.contact-icons i {
+    padding: 10px;
+}
+.contact-icons i:hover {
+    color:#e2491d;
+    transform: scale(1.4);
+    transition: ease-in-out;
+}
+
+/* about */
+.education, .projects, .contact {
+    height: 500px;
+    background: #363636;
+}
+
+.about {
+    height: 400px;
+}
+.about-header {
+    text-align: center;
+}
+#about-heading {
+    font-size: 32px;
+    font-weight: 300;
+
+}
+.underline {
+    margin: 0 auto;
+    background: #e2491d;
+    width: 200px;
+    height: .2em;
+}
+
+.about-detail {
+    background: #f2f2f2;
+}
+
+
+/* footer */ 
+footer {
+    text-align: center;
+}
+
