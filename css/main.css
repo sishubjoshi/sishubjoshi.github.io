@@ -10,6 +10,14 @@ a {
 	color: #000;
 }
 
+.extra {
+	font-size: 1rem;
+}
+.fa-bars {
+	font-size: 1rem;
+	/* font-weight: 500; */
+}
+
 .navbar {
 	position: fixed;
 	top: 5px;
@@ -149,6 +157,8 @@ a {
 .projects-header {
 	text-align: center;
 	font-size: 3rem;
+	padding: 10px;
+	margin-bottom: 10px;
 }
 
 .projects-detail {
@@ -161,7 +171,6 @@ a {
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-gap: 1em;
-	box-shadow: 0px 1px 30px rgba(0, 0, 0, 0.6);
 	padding: 10px;
 	border: 1px solid transparent;
 	border-radius: 5px;
@@ -178,23 +187,24 @@ a {
 
 .project-links > a {
 	/* border: 2px solid #000; */
+	font-size: 1rem;
 	border-radius: 5px;
-	padding: 4px 5px;
+	padding: 6px 5px;
 }
 ._github {
 	/* background: #000; */
 	/* color: #fff; */
 }
 
-._github:hover {
-	background: #e2491d;
+._github {
+	background: #000;
 	color: #fff;
 	box-shadow: 0px 1px 40px rgba(0, 0, 0, 0.3);
 	transition: ease-in 100ms;
 	/* transition: ease-out 1000ms; */
 }
 
-._open:hover {
+._open {
 	background: green;
 	color: #fff;
 }
