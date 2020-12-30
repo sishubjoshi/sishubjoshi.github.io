@@ -13,6 +13,7 @@ a {
 .extra {
 	font-size: 1rem;
 }
+
 .fa-bars {
 	font-size: 1rem;
 	/* font-weight: 500; */
@@ -30,23 +31,28 @@ a {
 	padding: 10px;
 	/* box-shadow: 1px 3px 5px 2px rgba(0, 0, 0, 0.7); */
 }
+
 .branding a {
 	font-size: 2rem;
 	font-weight: 600;
 	color: #000;
 }
+
 .branding {
 	padding: 0 10px;
 }
+
 .nav-items {
 	list-style-type: none;
 	margin: 0 auto;
 }
+
 .nav-item {
 	display: inline-block;
 	margin: 0 15px;
 	font-size: 17px;
 }
+
 .nav-item a {
 	font-size: 17px;
 }
@@ -63,6 +69,7 @@ a {
 	/* background: #f2f2f2; */
 	padding-top: 60px;
 }
+
 .image-div {
 	margin: 0 auto;
 	width: 160px;
@@ -77,20 +84,24 @@ a {
 	text-align: center;
 	margin: 0 2rem;
 }
+
 #name,
 #intro,
 #brief {
 	padding: 3px 0;
 }
+
 #name {
 	color: #363636;
 	font-size: 40px;
 	margin-top: 10px;
 }
+
 #intro {
 	color: #504a4a;
 	font-weight: 300;
 }
+
 #brief {
 	color: #4a4a4a;
 	margin-top: 20px;
@@ -100,14 +111,23 @@ a {
 .social {
 	padding: 10px;
 }
+
 .contact-icons i {
 	padding: 10px;
 }
+
 .contact-icons i:hover {
 	color: #e2491d;
 	transform: scale(1.4);
 	transition: ease-in-out;
 }
+
+.projects-header i:hover {
+	color: #e2491d;
+	transform: scale(1.4);
+	transition: ease-in-out;
+}
+
 
 /* about */
 .education,
@@ -121,9 +141,11 @@ a {
 	height: auto;
 	/* margin: 0 10%; */
 }
+
 .about-header {
 	/* text-align: center; */
 }
+
 #about-heading {
 	font-size: 2rem;
 	line-height: 1.12;
@@ -131,6 +153,7 @@ a {
 	color: #363636;
 	text-align: left;
 }
+
 /* .underline {
 	margin: 0 auto;
 	background: #e2491d;
@@ -188,12 +211,13 @@ a {
 	font-weight: 600;
 }
 
-.project-links > a {
+.project-links>a {
 	/* border: 2px solid #000; */
 	font-size: 1rem;
 	border-radius: 5px;
 	padding: 6px 5px;
 }
+
 ._github {
 	/* background: #000; */
 	/* color: #fff; */
